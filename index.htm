@@ -15,18 +15,147 @@
 <ul>
 <li><a href="#profile">文化底蘊</a></li>
 <li><a href="#concert">星巴克北港門市聯絡資訊</a></li>
-<li><a href="https://w0917193217.wixsite.com/stbk"target="_blank">公司簡介</a></li>
-<li><a href="form.htm"target="_blank">會員登入</a></li>
-<li><a href="http://120.105.150.46/hakkaonline/u0757044/shop/"target="_blank">電子商城</a></li>
+<li><a href="https://w0917193217.wixsite.com/stbk" target="_blank">公司簡介</a></li>
+<li><a href="form.htm" target="_blank">會員登入</a></li>
+<li><a href="http://120.105.150.46/hakkaonline/u0757044/shop/" target="_blank">電子商城</a></li>
 <li><a href="new.htm" target="_blank">新品上市</a></li>
 <li><a href="about.htm" target="_blank">歷年專案</a></li>
 </url>
 </nav>
 </header>
+
 <main>
 <div class="mainvisual">
 <img src="img/1.jpg" width="1757" height"600" alt="主視覺圖片"></img><p>
 </div>
+
+<!DOCTYPE html>
+<html lang="tw"><head> 
+        <meta charset="UTF-8">
+        <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+
+.full-screen{
+ position:fixed;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ background:rgba(255,160,35,0.6);
+ z-index:10;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+
+p{
+           color:Tangerine;
+           margin:5px;
+           cursor:pointer;
+
+}
+p:hover{
+           background:seashell;
+}
+
+h1{
+           color:Coffee;
+          
+
+}
+
+
+.close{
+ position: absolute;
+ z-index:11;
+ right: 50px;
+ top: 50px;
+ width: 50px;
+ height: 50px; 
+ background: LightSlateGray;
+ border-radius: 25px; 
+ cursor: pointer;
+
+}
+.close:hover {
+ background: red;
+}
+
+.close:before {
+ position: absolute;
+ content: ''; 
+ width: 30px;
+ height: 10px; 
+ background: white; 
+ transform: rotate(45deg); 
+ top: 20px; left: 10px;
+
+}
+.close:after{
+ content: '';
+ position: absolute;
+ width: 30px;
+ height: 10px;
+ background: white; 
+ transform: rotate(-45deg);
+ top: 20px;
+ left: 10px;
+}
+
+</style>
+</head>
+
+<body>
+<h1>星巴克經典口味「栗香蒙布朗風味那堤」回歸！</h1>
+<p align="center">栗香白巧克力糖醬搭配經典義式濃縮與香滑牛奶太適合冬天熱熱喝！</p>
+
+
+
+<div class="full-screen" align="center" style="">
+<img src="img/新品.jpg">
+</div>
+
+
+ 
+
+
+
+
+
+<div class="close" style="">
+</div>
+<script>
+
+$("p").click(function(){
+ $(".full-screen").slideToggle();
+});
+
+
+$("p").click(function(){
+ $(".close").slideToggle();
+});
+
+
+$(".close").click(function(){
+ $(".full-screen").slideToggle();
+});
+
+
+$(".close").click(function(){
+ $(".close").slideToggle();
+});
+
+
+</script>
+
+
+
+
+
+</body></html>
 
 <article id="profile">
 <div class="inner">
@@ -63,6 +192,8 @@
 
 </article>
 </main>
+
+
 <footer>
 <p class="pagetop"><a href="#top">回到首頁</a></p>
 <p class="copyright"><small>&copy;CopyRight 2020文化觀光產業學系</small></p>
