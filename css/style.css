@@ -1,6 +1,6 @@
 /* body */
 body {
-    background-color: #006400;
+    background-color: #3b5e46;
     margin: 0;
 }
 
@@ -13,7 +13,7 @@ h1 {
 
 /* 選單 */
 .navigation ul {
-    background-color: #006400;
+    background-color: #3b5e46;
     margin: 0;
     padding: 4px;
     text-align: center;
@@ -34,7 +34,7 @@ h1 {
 
 /* 主視覺 */
 .mainvisual {
-    background-color: 	#006400;
+    background-color: 	#3b5e46;
     border-bottom: solid 3px #dcdcdc;
 }
 .mainvisual img {
@@ -52,7 +52,7 @@ article {
 /* 背景色・文字色 */
 #profile {
     background-color: 	#dcdcdc;
-    color: #006400;
+    color: #3b5e46;
 }
 
 /* 邊界設定 */
@@ -78,7 +78,7 @@ h2 {
 }
 
 h3 {
-    border-left: solid 6px #006400;
+    border-left: solid 6px #3b5e46;
     padding-left: 6px;
 }
 
@@ -128,6 +128,3 @@ th {
 ol li {
     list-style-type: upper-roman;
 }
-
-
-
